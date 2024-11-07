@@ -4,12 +4,10 @@
 ## Description
 
 **Real-Analysis-Chatbot-MATH2122** is a chatbot designed to assist second-year university students studying Real Analysis. Built upon the course textbook, this chatbot helps clarify concepts, answer questions, and provide explanations related to the subject matter. The dataset for training was created using LangChain to facilitate a better understanding of Real Analysis topics.
-Check out this video to see our project in action:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5kboq6OiIRI" 
-title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+- Check out this video to see our project in action:
+
+[![Watch the video](https://img.youtube.com/vi/5kboq6OiIRI/maxresdefault.jpg)](https://www.youtube.com/watch?v=5kboq6OiIRI)
 
 ### Features
 
