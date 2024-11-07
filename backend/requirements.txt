@@ -1,0 +1,8 @@
+pdfminer.six==20221105
+PyPDF2==3.0.1
+openai==0.27.0
+tqdm==4.65.0
+flask==2.0.1
+python-dotenv==0.19.1
+npx shadcn@latest add button input scroll-area sidebarnpx shadcn@latest add button input scroll-area sidebar
+npm install katex @types/katex lucide-react
