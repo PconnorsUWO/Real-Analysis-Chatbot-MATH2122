@@ -59,7 +59,7 @@ The `requirements.txt` includes:
 
 #### Set up environment variables
 
-Create a `.env` file in the project root and add your OpenAI API key:
+Go to the .env file in the backend directory and set the OPEN_API_KEY to yours
 
 ```bash
 OPENAI_API_KEY=your_openai_api_key
@@ -79,10 +79,12 @@ npm install katex @types/katex lucide-react
 
 ## Usage
 
-### Run the Flask application
+### Run the Flask and Next.js project
 
 ```bash
-flask run
+cd frontend
+python ../app.py
+npx next dev
 ```
 
 ### Access the web interface
@@ -91,24 +93,4 @@ Open your web browser and navigate to [http://localhost:5000](http://localhost:5
 
 Interact with the chatbot using the web interface to ask questions related to Real Analysis.
 
----
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
----
-
-## Acknowledgments
-
-- **OpenAI** for providing the language model API
-- **LangChain** for dataset creation
-- **Course Textbook Authors** for the foundational material
-- **shadcn/UI** for the UI components
-- **KaTeX** for rendering mathematical notation
