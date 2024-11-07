@@ -116,6 +116,7 @@ def generate_response():
             "You are an assistant specialized in Real Analysis. "
             "Use the following information to answer the question. "
             "Provide references to the relevant sections of the textbook.\n\n"
+            "At the end of your own response reply with exactly. 'This is possibly found in chapter " + passage["chapter"] + " page " + passage["page"] + " of your text book'"
             f"Context:\n{context}\n"
             f"Question: {question}\n"
             "Answer:"
