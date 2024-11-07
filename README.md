@@ -95,8 +95,8 @@ Interact with the chatbot using the web interface to ask questions related to th
 
 Live Hosting [Math2122chatbot.com](http://Math2122chatbot.com)
 
-### Updates
+### Notes
 
-Want to add a SQL database for users so the bot has a memory of the last chat
-Also possibly add other textbooks so I can recommend a variety of problems with solutions from multiple sources
-
+ - Want to add a SQL database for users so the bot has a memory of the last chat
+ - Also possibly add other textbooks so I can recommend a variety of problems with solutions from multiple sources
+ - If you want this to be made for your class reach out, all that would change is the dataset.
