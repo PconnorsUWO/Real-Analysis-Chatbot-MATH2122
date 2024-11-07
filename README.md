@@ -4,15 +4,23 @@
 ## Description
 
 **Real-Analysis-Chatbot-MATH2122** is a chatbot designed to assist second-year university students studying Real Analysis. Built upon the course textbook, this chatbot helps clarify concepts, answer questions, and provide explanations related to the subject matter. The dataset for training was created using LangChain to facilitate a better understanding of Real Analysis topics.
+Check out this video to see our project in action:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5kboq6OiIRI" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 ### Features
 
-- Interactive chatbot for Real Analysis topics
+- Interactive chatbot for Real Analysis MATH 2122
 - Utilizes OpenAI's GPT-based models for natural language understanding
 - Dataset creation powered by LangChain
-- Web interface built with Flask
+- Web interface built with Next.js
+- API Calls from frontend handled with flask
 - Supports mathematical notation rendering with KaTeX
 - Modular UI components using shadcn
+- Uses scipy to compare textbook embeds to prompt embed
 
 ---
 
@@ -23,7 +31,8 @@
 - Python 3.8 or higher
 - Next.js and npm
 - An OpenAI API key
-
+- Requirements.txt
+  
 ### Steps
 
 #### Clone the repository
@@ -33,14 +42,7 @@ git clone https://github.com/yourusername/Real-Analysis-Chatbot-MATH2122.git
 cd Real-Analysis-Chatbot-MATH2122
 ```
 
-#### Set up Python environment
 
-It is recommended to use a virtual environment:
-
-```bash
-python -m venv venv
-source venv/bin/activate   # On Windows use `venv\Scripts\activate`
-```
 
 #### Install Python dependencies
 
@@ -89,8 +91,14 @@ npx next dev
 
 ### Access the web interface
 
-Open your web browser and navigate to [http://localhost:5000](http://localhost:5000)
+Open your web browser and navigate to [http://localhost:3000](http://localhost:3000)
 
-Interact with the chatbot using the web interface to ask questions related to Real Analysis.
+Interact with the chatbot using the web interface to ask questions related to the Textbook!
 
+Live Hosting [Math2122chatbot.com](http://Math2122chatbot.com)
+
+### Updates
+
+Want to add a SQL database for users so the bot has a memory of the last chat
+Also possibly add other textbooks so I can recommend a variety of problems with solutions from multiple sources
 
